@@ -1,7 +1,7 @@
 import datetime as dt
 import requests
 
-#Go to the read me to learn about the API key.
+#Go to the README to learn about the API key.
 file_path = 'API.txt'
 with open(file_path,'r') as file:
     API_KEY = file.read().strip()
